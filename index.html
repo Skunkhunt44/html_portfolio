@@ -13,6 +13,16 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
 <title>Portfolio</title>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "EPwWdjV0gtVlAntvL",
+      });
+   })();
+</script>
 </head>
 <body>
     <header>
@@ -41,9 +51,7 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
             <div class="text-animate">
                 <h3>Front-end Developer</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad harum molestiae dicta 
-                adipisci voluptatum ducimus, corrupti aspernatur
-             omnis, ratione facere consequatur expedita quia sunt assumenda, nulla cum possimus nam quas.</p>
+            <p>I'm passionate about creating intuitive and engaging web experiences. Let's build something awesome together!.</p>
         </div>
         <!-- <img class="intro-img" src="/images/converted passport.jpg" alt=""> -->
     </section>
@@ -55,21 +63,15 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
         <div class="services">
             <div class="service">
                 <h3>Design + Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>I design and develop websites with a focus on user experience and performance. From concept to launch, I ensure every detail is meticulously crafted.</p>
             </div>
             <div class="service">
                 <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,]
-                     quis nostrud exercitation ullamco
-                     laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>I specialize in building e-commerce solutions that drive sales and enhance customer satisfaction. Let's turn your online store into a thriving business.</p>
                     </div>
             <div class="service">
                 <h3>WordPress</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>With extensive experience in WordPress development, I create custom themes and plugins tailored to your specific needs. Let's bring your WordPress vision to life.</p>
                 </div>
                 
             </div>
@@ -86,13 +88,24 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
         
         
         <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repudiandae dicta voluptatum, enim vel fugiat. Quas aperiam illum expedita, soluta esse perspiciatis voluptates 
-                temporibus minus deserunt tempore ipsam a ab!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, iusto accusantium vel sit omnis facere ducimus praesentium ex delectus quod architecto quas 
-                illum dolores voluptatem nam! Culpa eaque ullam aut?</p>
+            <p>I'm a designer and developer passionate about creating meaningful digital experiences. With a focus on usability and accessibility, I strive to make the web a better place for everyone.</p>
+            <!-- <p>I'm fueled by curiosity and a continuous desire to learn and grow.</p> -->
+            <div class="stack-skills">
+                <h1>My Stack Skills</h1>
+                <ul>
+                    <li>HTML5 <i class="fa-brands fa-html5" style="color: #74C0FC;"></i></li>
+                    <li>CSS3 <i class="fa-brands fa-css3-alt" style="color: #FFD43B;"></i></li>
+                    <li>JavaScript <i class="fa-brands fa-js" style="color: #d3350d;"></i></li>
+                    <li>React <i class="fa-brands fa-react" style="color: #74C0FC;"></i></li>
+                    <li>Node.js <i class="fa-brands fa-node-js" style="color: #B197FC;"></i></li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                    <!-- Add more skills as needed -->
+                </ul>
             </div>
+        </div>
 
-        <img src="/images/dev-jane-02.jpg" alt="" class="about-me_img">
+        <img src="/images/passpic.jpg" alt="" class="about-me_img">
     </section>
 
     <section class="my-work" id="work">
@@ -100,35 +113,47 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
         <p class="section-subtitle section__subtitle--work">A selection of my range of work</p>
         
         <div class="portfolio">
-            <a href="#" class="portfolio_item"> 
+            <a href="#" class="portfolio_item "> 
                 <img src="./images/portfolio-01.jpg"   class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
+             
+                
             </a>
+            
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-02.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-03.jpg"  class="portfolio__img" alt="">
+                <span class="external-link"> Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-04.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-05.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-06.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-07.jpg"  class="portfolio__img" alt="">
-            </a>
+                <span class="external-link">Project Name</span>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-08.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-09.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
             <a href="#" class="portfolio_item"> 
                 <img src="./images/portfolio-10.jpg"  class="portfolio__img" alt="">
+                <span class="external-link">Project Name</span>
             </a>
                
         </div>
@@ -142,7 +167,37 @@ integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="ano
 
     <!-- Footer -->
     <footer  class="footer">
-        <a href="mailto:kwameadams77@gmail.com" class="footer-link">kwameadams77@gmail.com</a>
+        <form action=""   id="contact-form">
+            <fieldset>
+                <legend id="contact-me">Contact me</legend>
+                <div class="form-group">
+                    <label for="name">Name</label>                    
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject </label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject">                    
+                </div>
+                <div class="form-group">
+                    <label for="message">message</label>
+                    <textarea name="message" id="message" name="message" required cols="50" rows="10" placeholder="Message"></textarea>
+                </div>
+            </fieldset>
+            
+            <button class="email-btn" type="submit" onclick="sendEmail()">Send</button>
+
+            
+        </form>
+
+
+
+
+
+        <!-- <a href="mailto:kwameadams77@gmail.com" class="footer-link">kwameadams77@gmail.com</a> -->
         <ul class="social-list">
             <li class="social-list-item"><a href="https://www.linkedin.com/in/kwameadams/" target="_blank" class="social-list-link">
                 <i class="fa-brands fa-linkedin"></i>
